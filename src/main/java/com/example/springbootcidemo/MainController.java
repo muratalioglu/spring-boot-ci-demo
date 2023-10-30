@@ -14,6 +14,6 @@ public class MainController {
 
     @GetMapping("/second")
     public ResponseEntity<?> secondEndpoint() {
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok().build();
     }
 }
