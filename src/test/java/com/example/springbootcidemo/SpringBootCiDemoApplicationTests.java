@@ -35,4 +35,10 @@ class SpringBootCiDemoApplicationTests {
 				.andExpect(content().string(containsString("selam")));
 	}
 
+	@Test
+	void testSecondEndpoint() throws Exception {
+		mockMvc
+				.perform(get("/second"))
+				.andExpect(status().isOk());
+	}
 }
