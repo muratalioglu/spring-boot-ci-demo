@@ -11,4 +11,8 @@ public class MainController {
     public ResponseEntity<?> mainEndpoint() {
         return ResponseEntity.ok("selam");
     }
+
+    public ResponseEntity<?> secondEndpoint() {
+        return null
+    }
 }
