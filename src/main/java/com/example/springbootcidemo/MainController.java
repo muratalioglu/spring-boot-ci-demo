@@ -13,6 +13,6 @@ public class MainController {
     }
 
     public ResponseEntity<?> secondEndpoint() {
-        return null
+        return null;
     }
 }
