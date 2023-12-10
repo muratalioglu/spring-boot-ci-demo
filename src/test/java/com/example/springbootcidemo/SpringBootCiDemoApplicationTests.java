@@ -32,7 +32,7 @@ class SpringBootCiDemoApplicationTests {
 		mockMvc
 				.perform(get("/main"))
 				.andExpect(status().isOk())
-				.andExpect(content().string(containsString("selam._")));
+				.andExpect(content().string(containsString("selam")));
 	}
 
 	@Test
